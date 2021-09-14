@@ -1,0 +1,17 @@
+.a2020_admin_bar .sb-admin,
+.a2020_admin_bar .sb-admin > .sb-header {
+  top: 61px;
+}
+.a2020_admin_menu .sb-admin > .sb-header {
+  left: 250px;
+}
+.a2020_admin_menu .sb-admin {
+  margin-left: 0;
+  width: calc(100% - 315px);
+}
+.a2020_admin_menu.a2020_menu_small .sb-admin > .sb-header {
+  left: 65px;
+}
+.a2020_admin_menu.a2020_menu_small .sb-admin {
+  width: calc(100% - 133px);
+}

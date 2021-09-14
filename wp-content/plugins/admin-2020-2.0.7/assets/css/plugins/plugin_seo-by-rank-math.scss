@@ -1,0 +1,74 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+.a2020_admin_theme {
+  .rank-math-header {
+    margin-left: 0;
+  }
+}
+.a2020_admin_bar {
+  #wp-admin-bar-rank-math .rank-math-icon {
+    top: 0;
+  }
+}
+
+#toplevel_page_rank-math .rm-menu-new.update-plugins {
+  border-radius: 50%;
+  display: inline-flex;
+  .plugin-count {
+    background: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+  }
+}
+
+.a2020_admin_theme.a2020_night_mode {
+  .rank-math-header {
+    filter: invert(1) hue-rotate(180deg);
+    img {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  .rank-math-wrap {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .rank-math-metabox-wrap .rank-math-tabs-navigation:not(.social-tabs-navigation) {
+    background: $mid-dark;
+    a.active {
+      color: #fff;
+    }
+    a {
+      color: #999;
+    }
+  }
+  .serp-preview {
+    background: transparent;
+    .serp-preview-title {
+      color: #999 !important;
+      &:before {
+        color: #999 !important;
+      }
+    }
+    .serp-url {
+      color: #999;
+    }
+    .serp-title {
+      color: $global-primary-background;
+    }
+    .serp-description {
+      color: #fff;
+    }
+  }
+  .cmb2-wrap .cmb2-id-rank-math-focus-keyword .notice {
+    background: $dark;
+  }
+  .rank-math-serp-group.state-closed .group-handle {
+    background: none;
+  }
+  [id^="cmb2-metabox-rank"] .cmb-row .cmb-th {
+    color: #fff;
+  }
+  .rank-math-social-preview-button {
+    background: none;
+  }
+}

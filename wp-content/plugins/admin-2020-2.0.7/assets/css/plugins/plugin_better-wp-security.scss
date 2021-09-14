@@ -1,0 +1,35 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  .itsec-module-type-enabled .itsec-module-card-content {
+    background: $mid-dark;
+  }
+  .itsec-module-card-content {
+    background: $light-dark;
+    h2 {
+      color: #fff;
+    }
+  }
+  #itsec-settings-messages-container .postbox-header {
+    h2 {
+      color: #fff;
+    }
+  }
+  #itsec-sidebar-widget-pro-upsell {
+    color: $dark;
+    h2 {
+      color: $dark;
+    }
+    a {
+      color: $global-primary-background;
+    }
+  }
+  .itsec-module-settings-container {
+    background: #222;
+    z-index: 999;
+    .itsec-modal-content-footer {
+      background: #222;
+    }
+  }
+}

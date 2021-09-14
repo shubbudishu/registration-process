@@ -1,0 +1,18 @@
+@import "../variables.scss";
+@import "../modules/hooks.scss";
+
+.a2020_admin_theme.a2020_night_mode {
+  #BorlabsCookie .breadcrumb {
+    background: $mid-dark !important;
+  }
+  #BorlabsCookie .bg-light {
+    background: $mid-dark !important;
+  }
+
+  #BorlabsCookie .table {
+    color: #999 !important;
+  }
+  #BorlabsCookie .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+}
